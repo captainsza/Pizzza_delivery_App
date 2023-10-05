@@ -155,7 +155,7 @@ const Checkout = () => {
   const [queryParameters] = useSearchParams();
   const clientSecret = queryParameters.get("payment_intent_client_secret");
   const stripePromise = loadStripe(
-    "pk_test_51NsiOCSAHZAjHFsBJ08gLdPcjKRB0g8XH3hDSVIq5psuXcclFMtMBm4cN0i1PicZxT9IgRqiLNmBxsVSzvSkbRLx00BQQiyhzq"
+    "secret key"
   );
   const appearance = {
     theme: "stripe",

@@ -1,0 +1,54 @@
+.dashboard-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.dashboard-header {
+    text-align: center;
+    font-size: 2em;
+    color: #ff6347;
+}
+
+.add-pizza-form,
+.add-inventory-form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.add-pizza-form h2,
+.add-inventory-form h2 {
+    color: #ff6347;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.add-button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.pizza-item {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.pizza-item span {
+    margin-right: 10px;
+}
+
+.pizza-item button {
+    background-color: #ff6347;
+    color: #fff;
+}
